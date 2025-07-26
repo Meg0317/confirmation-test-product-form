@@ -1,0 +1,106 @@
+h2 {
+    margin: 0 auto;
+    transform: translateX(300px);
+}
+
+.register-form__inner {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.register-form__group {
+    padding: 24px 0;
+    width: 100%;
+    align-items: start;
+}
+
+.register-form__label {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.register-form__required {
+    border: 1px solid #FF0000;
+    margin-left: 8px;
+    padding: 3px 0;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #FF0000;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.register-form__message
+{
+    margin-left: 8px;
+    color: #FF0000;
+}
+
+.register-form__input {
+    border: 1px solid #F8F8F8;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding: 0 10px;
+    height: 48px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.register-form__season-inputs {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.register-form__textarea {
+    border: 1px solid #F8F8F8;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding: 0 10px;
+    height: 180px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.register-form__btn-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.register-form__back-btn,
+.register-form__send-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    min-width: 120px;
+    text-decoration: none;
+    /* 下線を消す */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.register-form__back-btn {
+    background: #E0DFDE;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);}
+
+.register-form__send-btn {
+    background: #F5C800;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form__error-message {
+    margin-top: 5px;
+    color: #FF0000;
+    font-size: 12px;
+}

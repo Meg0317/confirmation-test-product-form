@@ -1,0 +1,171 @@
+.product-form
+{
+    padding: 0 30px;
+    margin: 0 50px;
+}
+
+.product-form__heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    align-items: center;
+    font-size: 20px;
+}
+
+.product-form__btn {
+    display: inline-block;
+    /* padding: 8px 16px; */
+    background-color: #FFA929;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 20px;
+    width: 137px;
+    height: 30px;
+    margin: 8px 16px;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-and-list
+{
+    display: flex;
+    gap:30px;
+    margin-left: 0;
+}
+
+
+.search-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 200px;
+    font-size: 32px;
+    margin: 10px 0;
+    color: #333333;
+    font-size: 16px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid #F5C800;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.tag__close {
+    margin-left: 8px;
+    color: #F5C800;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search-form__group-name,
+.search-form__group-price
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.search-form__group-price
+{
+    border-bottom: 1px solid #E0DFDE;
+}
+.search-form__input,
+.search-form__btn btn
+{
+    width: 100%;
+    padding: 10px;
+
+}
+.search-form__label {
+    border-radius: 30px;
+    width: 100%;
+    border: 1px;
+}
+
+.search-form__input {
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #E0DFDE;
+}
+
+.search-form__btn {
+    width: 100%;
+    height: 34px;
+    padding: 0 20px;
+    background-color:#F5C800;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.search-form__select {
+    width: 100%;
+    height: 44px;
+    padding: 11px 10px;
+    border: 1px solid #e0dfde;
+    appearance: auto;
+}
+
+.fruit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    padding: 10px;
+}
+
+.card {
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    /* 枠に対して画像をフィット */
+    height: 120px;
+    /* 高さを制限して均一なサイズに */
+    object-fit: cover;
+    /* アスペクト比を維持しつつトリミング */
+    border-radius: 4px;
+}
+
+.card p {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 10px;
+    font-style: Regular;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-and-list-block {
+    display: flex;
+    gap: 2rem;
+}
+
+.pagination-area {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}

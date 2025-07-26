@@ -1,0 +1,140 @@
+.detail-form
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    /* background: #F8F8F8; */
+}
+
+.detail-form__group
+{
+    margin-bottom: 30px;
+}
+.card-image {
+    width: 100%;
+    /* 枠に対して画像をフィット */
+    height: 120px;
+    /* 高さを制限して均一なサイズに */
+    object-fit: cover;
+    /* アスペクト比を維持しつつトリミング */
+    border-radius: 4px;
+    border: 1px solid #F8F8F8;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.detail-form__inner
+{
+    display: flex;
+    gap: 40px;
+    /* 左右の間隔 */
+    align-items: flex-start;
+}
+
+.detail-form__image-area
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detail-form__name-input
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-form__price-input {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.detail-form__input
+{
+    border: 1px solid #F8F8F8;
+    background: #FFFFFF;
+}
+
+.detail-form__season-choice
+{
+    margin: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    appearance: none;
+}
+
+.detail-form__description-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.detail-form__operation-area
+{
+    display: flex;
+    justify-content:center;
+}
+
+.detail-form__back-btn,
+.detail-form__send-btn
+{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    min-width: 120px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.detail-form__back-btn
+{
+    background: #E0DFDE;
+    color:#000000;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-form__send-btn
+{
+    background: #F5C800;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-form
+{
+    position: relative;
+    height: 480px;
+}
+
+.detail-form__delete-btn
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.detail-form__error-message
+{
+    margin-top: 5px;
+    color: #FF0000;
+    font-size: 12px;
+}
+
+.detail-form__textarea
+{
+    border: 1px solid #F8F8F8;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100px;
+}
